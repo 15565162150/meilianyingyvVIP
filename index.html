@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			@media (max-width: 1000px){
+			    		.daohang1{
+			                display: none;
+			            }
+			            .juli{
+			            	display: none;
+			            }
+			    	}
+			.f>li{
+				float: left;
+				padding: 10px;
+				color: white;
+			}
+			.juli>li{
+				
+				line-height: 20px;
+			}
+			.bj{
+				background: url(img/bg.jpg)no-repeat;
+			}
+			.p>p>span{
+				color: orange;
+			}
+			.p>p{
+				color: white;
+				text-align: center;	
+			}
+			.cc>p{
+				text-align: center;
+				color: white;
+			}
+			.botto>div>p{
+							position: relative;
+						    margin-bottom: 30px;
+						    text-shadow: 1px 1px 1px gray;
+						    background-position: center center;
+						    background-repeat: no-repeat;
+						    background-size: cover;
+						    border-bottom: solid 5px #f6f792;
+						}
+				.ccc>div{
+					color: white;
+				}
+			.duiqi>p{
+				text-align: center;
+				color: white;
+			}
+			.bj1{
+				background: url(img/bg2.jpg)no-repeat;
+			}
+			.bgcol{
+				margin: 20px;
+				background: url(img/bg3.jpg)no-repeat;
+			}
+			.fen{
+				width: 90%;
+				margin: auto;
+			}
+			.fen>div>p{
+				background: #716659;
+				color: white;
+				margin-top: 10px;
+			}
+			.lei{
+				width: 70%;
+				margin: auto;
+				
+			}
+			.lei>div{
+				border: 1px dashed #00A080;
+			}
+			.lei>div>div{
+				margin-top: 10px;
+			}
+			.lei>div>div>img{
+				margin: auto;
+			}
+			footer{
+				margin-top: 40px;
+				background: url(img/bg.png)no-repeat 100% 100%;
+			}
+			.dibu{
+				width: 70%;
+				margin:50px auto;
+			}
+			.dibu>p{
+				margin: 50px;
+			}
+			.dibu>div{
+				margin: 50px;
+			}
+			.last{
+				margin-top: -50px;
+				width: 100%;
+				/*height: 200px;*/
+				background: #323232;
+				color: white;
+				font-size: 12px;
+			}
+			.last>div{
+				width: 80%;
+				margin: 50px auto;
+				
+			}
+			.last>div>div{
+				margin-top: 50px;
+				/*border: 1px solid white;*/
+			}
+			.last>div>div>img{
+				float: left;
+			}
+			.last>div>div>span{
+				float: left;
+				line-height: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav  style="background: gray;" class="daohang1">
+			<div class="container">
+				
+					<ul class="list-unstyled  f" >
+						<li><span class="glyphicon glyphicon-phone-alt "></span></li>
+						<li>400-777-8828</li>
+						<li>中文</li>
+						<li>英文</li>
+					</ul>
+					<div class="text-right f1">
+						<button type="button" class="btn btn-danger">免费注册</button>
+						<button type="button" class="btn btn-default">登录</button>
+					</div>
+			</div>
+		</nav>
+		<nav class="navbar navbar-inverse" style="margin-bottom: 0px;">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand"><img src="img/logo_09.png" /></a>
+			    </div>
+				<div class="collapse navbar-collapse navbar-left a">
+					<ul class="nav navbar-nav ">
+						<li> <a href="" style="color: white;"><span class="glyphicon glyphicon-home"></span>首页</a> </li>
+						<li> <a href="" style="color: white;"><span class="glyphicon glyphicon-gift"></span>通用英语</a> </li>
+						<li> <a href="" style="color: white;"><span class="glyphicon glyphicon-pencil"></span>海外考试</a> </li>
+						<li> <a href="" style="color: white;"><span class="glyphicon glyphicon-globe"></span>青少英语</a> </li>
+						<li> <a href="" style="color: white;"><span class="glyphicon glyphicon-bishop"></span>行业英语</a> </li>
+						<li> <a href="" style="color: white;"><span class="glyphicon glyphicon-shopping-cart"></span>在线购买</a> </li>
+						<li> <a href="" style="color: white;"><span class="glyphicon glyphicon-user"></span>全球师资</a> </li>
+						<li class="dropdown"> 
+							<a href="#" data-toggle="dropdown" style="color: white;"><span></span>更多栏目<span class="caret"></span></a> 
+							<ul class="dropdown-menu" style="background: black;">
+								<li><a href="#" style="color: white;">学院案例</a></li>
+								<li><a href="#" style="color: white;">免费体验</a></li>
+								<li><a href="#" style="color: white;">英语胶囊</a></li>
+								<li><a href="#" style="color: white;">精彩动态</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</nav>
+		<section >
+					<div id="myCarousel" class="carousel slide" >
+		<!-- 轮播（Carousel）指标       indicators：点标记 -->
+		<ol class="carousel-indicators">
+			<!--data-target="#myCarousel"：当前这个li控制的哪个轮播图-->
+			<!--data-slide-to="0"：当前li指向的是哪一张索引的图片-->
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			
+		</ol>   
+		<!-- 轮播（Carousel）项目 -->
+		<div class="carousel-inner">
+			<!--每一个item项就是一个轮播的图片内容-->
+			<div class="item active">
+				<a href="#" class="mobileImg">
+					<img src="img/img3.jpg" class="img-responsive" alt="First slide">
+				</a>
+				<!--图片的说明-->
+				<div class="carousel-caption">
+					第一张
+				</div>
+			</div>
+			<div class="item">
+				<a href="#" class="mobileImg">
+					<img src="img/img2.jpg" class="img-responsive" alt="First slide">
+				</a>
+				<div class="carousel-caption">
+					第二张
+				</div>
+			</div>
+			<div class="item">
+				<a href="#" class="mobileImg">
+					<img src="img/img1.jpg" class="img-responsive" alt="First slide">
+				</a>
+				<div class="carousel-caption">
+					第三张
+				</div>
+			</div>
+		</div>
+		<!-- 轮播（Carousel）导航 -->
+		<!--PC端的上一张 和下一张按钮-->
+		<!--href="#myCarousel"：设置控制的哪一个轮播图-->
+		<!--data-slide="prev"：作用是上一张-->
+		<!--data-slide="next"：作用是下一张-->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	    </div>
+			</div>
+        <div style="background: black;">
+	     	<div class="container">
+	     		<div class="row">
+	     			<div class="col-md-9">
+	     				<ul class="list-unstyled juli" style="margin-top: 10px;">
+	     					<li style="color: white;">用英语，为梦想加油！10周年，不失梦想正青春</li>
+	     					<li style="color: gray;">用英语，为梦想加油！10周年，不失梦想正青春，用英语，为梦想加油！10周年，不失梦想正青春</li>
+	     					<li style="color: gray;">用英语，为梦想加油！10周年，不失梦想正青春，用英语，为梦想加油！10周年，不失梦想正青春</li>
+	     					<li style="color: gray;">用英语，为梦想加油！10周年，不失梦想正青春</li>
+	     				</ul>
+	     			</div>
+	     			<div class="col-md-2" style="margin-top: 20px;">
+	     				<p style="color: white;">免费试听+水平测试</p>
+	     				<button class="btn" style="background: #FFD300;font-size: 13px;width: 120px; color: black;">立即申请</button>
+	     			</div>
+	     		</div>
+	     	</div>
+	    </div>
+		<div class="container">
+			<p class="text-center" style="font-size: 32px; padding: 50px;">真的没有时间学习英语吗?</p>
+			<div class="box" style="background: #00A080; text-align: center; padding: 25px 40px;">
+				<p class="text-center" style="padding: 30px;color: white;">2015年在线学习人群的学习时段数据分布</p>
+				<img src="img/trend.png" class="img-responsive" style="display: inline-block;"/>
+			</div>
+		</div>
+		<div class="bj" style="margin-top: -100px;position: relative;z-index: -1;">
+			<div class="container" style="padding: 200px 0px 100px 0px;">
+				<div class="p">
+					<p><span>30%</span>的人群在<span>早八点前</span>和<span>晚22点后</span>进行在线学习，每天至少可多得<span>5小时</span>学习时间</p>
+					<p>线下培训班，往返路程平均浪费<span>1.5小时</span>，在线学习帮你节省时间来享受生活</p>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="img/3.png" class="img-responsive " style="padding:10px 500px;"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 cc">
+						<p>我是</p>
+						<p style="font-size: 20px; color: green;">早起族</p>
+						<p>早7点别人还在睡觉，而我再跟英国</p>
+						<p>外教网聊下午茶</p>
+					</div>
+					<div class="col-md-3 cc">
+						<p>我是</p>
+						<p style="font-size: 20px; color: green;">早起族</p>
+						<p>早7点别人还在睡觉，而我再跟英国</p>
+						<p>外教网聊下午茶</p>
+					</div>
+					<div class="col-md-3 cc">
+						<p>我是</p>
+						<p style="font-size: 20px; color: green;">早起族</p>
+						<p>早7点别人还在睡觉，而我再跟英国</p>
+						<p>外教网聊下午茶</p>
+					</div>
+					<div class="col-md-3 cc">
+						<p>我是</p>
+						<p style="font-size: 20px; color: green;">早起族</p>
+						<p>早7点别人还在睡觉，而我再跟英国</p>
+						<p>外教网聊下午茶</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="container" style="margin-top: 50px;">
+			<p style="font-size: 20px;color: green;text-align: center;">2000+全球师资 100%欧美外教</p>
+			<p style="font-size: 13px;text-align: center;">TESOL证书/5年以上教龄/高颜值外教团</p>
+			<div class="row botto">
+				<div class="col-md-8">
+					<p style="min-height: 350px;background-image:url(img/oleg.png);">
+					
+					</p>
+				</div>
+				<div class="col-md-4">
+					<p style="min-height: 350px;background-image:url(img/oksana.png);">
+					
+					</p>
+				</div>
+			</div>
+			<div class="row botto">
+				
+				<div class="col-md-4">
+					<p style="min-height: 200px;background-image:url(img/juraj.png);">
+					
+					</p>
+				</div>
+				<div class="col-md-4">
+					<p style="min-height: 200px;background-image:url(img/juraj.png);">
+					
+					</p>
+				</div>
+				<div class="col-md-4">
+					<p style="min-height: 200px;background-image:url(img/juraj.png);">
+					
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="container" style="margin-top: 50px;">
+			<p style="font-size: 20px;color: green;text-align: center;">6+课程体系，总有一种适合你</p>
+			<p style="font-size: 13px;text-align: center;">10教育行业背景，1000专业研发团队，针对不同学习需求，打造全面完善的课程体系</p>
+			<div class="row">
+				<div class="col-md-10 col-md-push-1">
+					<img src="img/cover.png" class="img-responsive "/>
+				</div>
+			</div>
+			<div class="row ccc">
+				<div class="col-md-4 text-center col-xs-4" style="background: palevioletred;padding: 30px;">
+					通用口语
+				</div>
+				<div class="col-md-4 text-center col-xs-4" style="background: pink;padding: 30px;">
+					海外考试
+				</div>
+				<div class="col-md-4 text-center col-xs-4" style="background: palevioletred;padding: 30px;">
+					青少英语
+				</div>
+			</div>
+			<div class="row ccc">
+				<div class="col-md-4 text-center col-xs-4" style="background: pink;padding: 30px;">
+					行业英语
+				</div>
+				<div class="col-md-4 text-center col-xs-4" style="background: palevioletred;padding: 30px;">
+					旅游英语
+				</div>
+				<div class="col-md-4 text-center col-xs-4" style="background:pink;padding: 30px;">
+					面试英语
+				</div>
+			</div>
+		</div>
+		<div class="container" style="margin-top: 50px;">
+			<p style="font-size: 20px; color: green;text-align: center;">有伴有爱有力量，再也不怕学习没动力</p>
+			<p style="font-size: 13px;text-align: center;">学习从来不是轻松事，与其孤身奋战，不如找到志同道合小伙伴一起坚持到底,免费的哦</p>
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<p class="">
+						<img src="img/01.jpg" class="img-responsive" style="width: 100%;"/>
+						
+					</p>
+					<p style="text-align: center;font-size: 18px;">学习太苦，坚持不住</p>
+					<p style="text-align: center;">学办功能，一键添加小伙伴，免费一起学，互相督促进步</p>
+					<p style="text-align: center;">快！</p>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<p class="">
+						<img src="img/02.jpg" class="img-responsive" style="width: 100%;"/>
+					</p>
+					<p style="text-align: center;font-size: 18px;">出国旅行，口语太差</p>
+					<p style="text-align: center;">学办功能，一键添加小伙伴，免费一起学，互相督促进步</p>
+					<p style="text-align: center;">快！</p>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<p class="">
+						<img src="img/03.jpg" class="img-responsive" style="width: 100%;"/>
+					</p>
+					<p style="text-align: center;font-size: 18px;">是英语课，也是交友会</p>
+					<p style="text-align: center;">学办功能，一键添加小伙伴，免费一起学，互相督促进步</p>
+					<p style="text-align: center;">快！</p>
+				</div>
+			</div>
+		</div>
+		<div class="container" style="margin-top: 50px;">
+			<p style="font-size: 20px;color: green;text-align: center;">真金白银选老师</p>
+			<p style="font-size: 13px; text-align: center;">教你学的人和督促你学的人，最重要！评分与评语有时并不客观你懂哒，所以我们开放打赏功能教学与服务，真金白银的来检验</p>
+		    <div class="">
+		    	<img src="img/teacher.jpg" class="img-responsive" style="padding: 30px 100px;"/>
+		    </div>
+		</div>
+		<div style="background: rgb(0,160,128);margin-top: -200px;">
+	    		<div class="container">
+	    			<div class="row" style="margin-top: 200px;">
+	    				<div class="col-md-4 duiqi">
+	    					<p>2%</p>
+	    					<p>合同金额的2%自动转换为学员打赏U币</p>
+	    				</div>
+	    				<div class="col-md-4 duiqi">
+	    					<p>1U币=1RMB</p>
+	    					<p>直接以现金形式全部兑换给教师</p>
+	    				</div>
+	    				<div class="col-md-4 duiqi">
+	    					<p>每节课</p>
+	    					<p>学员都可以对老师进行打赏和评价</p>
+	    				</div>
+	    			</div>
+	    			<div class="row" style="margin-top: 50px;margin-bottom: 50px;">
+	    				<div class="col-md-4 duiqi">
+	    					<p>每个月</p>
+	    					<p>对自己的学习指导进行打赏和评价</p>
+	    				</div>
+	    				<div class="col-md-4 duiqi">
+	    					<p>教师考核</p>
+	    					<p>直接以现金形式全部兑换给教师</p>
+	    				</div>
+	    				<div class="col-md-4 duiqi">
+	    					<p>SA考核</p>
+	    					<p>学员都可以对老师进行打赏和评价</p>
+	    				</div>
+	    			</div>
+	    		</div>	
+    	</div>
+		<div class="bj1" style="margin-top: -280px;position: relative;z-index: -1;">
+			<div style="padding: 300px 0px 0px 0px;">
+				<p style="text-align: center;font-size: 20px; color: greenyellow;">0风险，不满意随时退</p>
+				<p style="text-align: center;color: white;">我们懂你，才知道放飞自由的意义！梦想可以暂缓，但不要失去！</p>
+				<p style="text-align: center;"><img src="img/block-split.png"/></p>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-md-push-1">
+					<p class="text-center">
+						<img src="img/01.png"/>
+					</p>
+					<p class="text-center" style="color: #00A080;">随时重修</p>
+					<p class="text-center" style="color: white;">如果你对课程、教师、学习平台的课后评价任意一项<=1分，该节课将会返还课时可进行重修，以保障你每节课的学习效果</p>
+				</div>
+				<div class="col-md-4 col-md-push-3">
+					<p class="text-center">
+						<img src="img/01.png"/>
+					</p>
+					<p class="text-center" style="color: #00A080;">随时退费</p>
+					<p class="text-center" style="color: white;">如果你对课程、教师、学习平台的课后评价任意一项<=1分，该节课将会返还课时可进行重修，以保障你每节课的学习效果</p>
+				</div>
+			</div>
+		</div>
+		<div class="container" style="margin-top: 50px;">
+			<p style="font-size: 20px;color: green;text-align: center;">更多特色服务</p>
+			<p style="font-size: 13px; text-align: center;">4+核心优势 N+成效保障</p>
+		</div>
+		<div class="row">
+			<a href="" class="col-md-1 col-md-push-1"><img src="img/3.png"/></a>
+			<div class="col-md-7 col-lg-offset-2">
+				<p class="row"><h3>应用开发、优化及运行的Paa云计算平台</h3></p>
+				<p class="row">学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7 col-lg-offset-2">
+				<p class="row"><h3>应用开发、优化及运行的Paa云计算平台</h3></p>
+				<p class="row">学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择</p>
+			</div>
+			<a href="" class="col-md-1 col-lg-offset-1"><img src="img/4.png"/></a>
+		</div>
+		<div class="row">
+			<a href="" class="col-md-1 col-md-push-1"><img src="img/5.png"/></a>
+			<div class="col-md-7 col-lg-offset-2">
+				<p class="row"><h3>应用开发、优化及运行的Paa云计算平台</h3></p>
+				<p class="row">学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7 col-lg-offset-2">
+				<p class="row"><h3>应用开发、优化及运行的Paa云计算平台</h3></p>
+				<p class="row">学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择学习之所以难以坚持学习，有时仅仅因为计划没有变化快：会议取消、约会提前、形成更改。。。我们打破了24小时选择</p>
+			</div>
+			<a href="" class="col-md-1 col-lg-offset-1"><img src="img/6.png"/></a>
+		</div>
+		<div class="row bgcol">
+			<p style="font-size: 20px;color: #00A080;text-align: center;">学英语，看世界！小美带你GO学员微电影</p>
+			<p style="font-size: 13px; text-align: center;"><img src="img/block-split.png"/></p>
+			<div class="row fen">
+				<div class="col-md-3">
+					<img src="img/4.jpg" class="img-responsive"/>
+					<p class="text-center">学员旅行微电影</p>
+				</div>
+				<div class="col-md-3">
+					<img src="img/5.jpg" class="img-responsive"/>
+					<p class="text-center">学员旅行微电影</p>
+				</div>
+				<div class="col-md-3">
+					<img src="img/6.jpg" class="img-responsive"/>
+					<p class="text-center">学员旅行微电影</p>
+				</div>
+				<div class="col-md-3">
+					<img src="img/7.jpg" class="img-responsive"/>
+					<p class="text-center">学员旅行微电影</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<p style="font-size: 20px;color: #00A080;text-align: center;">学习流程</p>
+			<p style="font-size: 13px; text-align: center;">仅需4步，轻松开启在线学习之旅</p>
+			<div class="row lei">
+				<div class="col-md-3">
+					<div><img src="img/step1.png" class="img-responsive"/></div>
+					<div class="text-center">会员登录/注册</div>
+					<div class="text-center"><button class="btn">登录</button><button class="btn btn-danger">注册</button></div>
+				</div>
+				<div class="col-md-3">
+					<div><img src="img/step2.png" class="img-responsive"/></div>
+					<div class="text-center">购买相关课程</div>
+					<div class="text-center"><button class="btn">购买课程</button></div>
+				</div>
+				<div class="col-md-3">
+					<div><img src="img/step3.png" class="img-responsive"/></div>
+					<div class="text-center">自选外教/时间/主题</div>
+					<div class="text-center"><button class="btn">预约课程</button></div>
+				</div>
+				<div class="col-md-3">
+					<div><img src="img/step4.png" class="img-responsive"/></div>
+					<div class="text-center">电脑/PAD/手机，均可上课</div>
+					<div class="text-center"><button class="btn">上课环境监测</button></div>
+				</div>
+			</div>
+		</div>
+		</section>
+		<footer>
+			<div class="row dibu">
+				<p style="font-size: 20px;color: #00A080;text-align: center;">企业荣誉</p>
+				<div class="row">
+					<div class="col-md-2">
+						<img src="img/credit-01.png" class="text-center img-responsive"/>
+						<p class="text-center" style="color: white;">CCTV希望之星英语风采大赛国际唯一战略合作伙伴</p>
+					</div>
+					<div class="col-md-2">
+						<img src="img/credit-02.png" class="text-center img-responsive"/>
+						<p class="text-center" style="color: white;">CCTV希望之星英语风采大赛国际唯一战略合作伙伴</p>
+					</div>
+					<div class="col-md-2">
+						<img src="img/credit-03.png" class="text-center img-responsive"/>
+						<p class="text-center" style="color: white;">CCTV希望之星英语风采大赛国际唯一战略合作伙伴</p>
+					</div>
+					<div class="col-md-2">
+						<img src="img/credit-04.png" class="text-center img-responsive"/>
+						<p class="text-center" style="color: white;">CCTV希望之星英语风采大赛国际唯一战略合作伙伴</p>
+					</div>
+					<div class="col-md-2">
+						<img src="img/credit-05.png" class="text-center img-responsive"/>
+						<p class="text-center" style="color: white;">CCTV希望之星英语风采大赛国际唯一战略合作伙伴</p>
+					</div>
+					<div class="col-md-2">
+						<img src="img/credit-06.png" class="text-center img-responsive"/>
+						<p class="text-center" style="color: white;">CCTV希望之星英语风采大赛国际唯一战略合作伙伴</p>
+					</div>
+				</div>
+				<p style="font-size: 20px;color: #00A080;text-align: center;">合作伙伴</p>
+				<div class="row">
+					<div class="col-md-2">
+						<img src="img/customer-01.png" class="text-center img-responsive"/>
+					</div>
+					<div class="col-md-2">
+						<img src="img/customer-02.png" class="text-center img-responsive"/>
+					</div>
+					<div class="col-md-2">
+						<img src="img/customer-03.png" class="text-center img-responsive"/>
+					</div>
+					<div class="col-md-2">
+						<img src="img/customer-04.png" class="text-center img-responsive"/>
+					</div>
+					<div class="col-md-2">
+						<img src="img/customer-05.png" class="text-center img-responsive"/>
+					</div>
+					<div class="col-md-2">
+						<img src="img/customer-06.png" class="text-center img-responsive"/>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="last">
+			<div class="row">
+				<div class="col-md-2">
+					<img src="img/qualification_001.png" class="img-responsive"/><span>可信网站认证</span>
+				</div>
+				<div class="col-md-2">
+					<img src="img/qualification_002.png" class="text-center img-responsive"/><span class="">可信网站认证</span>
+				</div>
+				<div class="col-md-2">
+					<img src="img/qualification_003.png" class="text-center img-responsive"/><span class="">可信网站认证</span>
+				</div>
+				<div class="col-md-2">
+					<img src="img/qualification_004.png" class="text-center img-responsive"/><span class="">可信网站认证</span>
+				</div>
+				<div class="col-md-2">
+					<img src="img/qualification_005.png" class="text-center img-responsive"/><span class="">可信网站认证</span>
+				</div>
+				<div class="col-md-2">
+					<img src="img/qualification_006.png" class="text-center img-responsive"/><span class="">可信网站认证</span>
+				</div>
+			</div>
+			<div class="row text-center">
+				<span  style="border-bottom:1px dashed white ;">美联英语 </span> 版权所有
+				<p>Copyright &copy;2010-2016 粤ICP备12018421号，电话：400-777-8828</p>
+				<p>友情链接：<a href=""style="color: white;">美联英语 </a><a style="color: white;" href=""> 学习网</a></p>
+			</div>
+		</div>
+	</body>
+	<script src="lib/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+</html>
